@@ -42,6 +42,6 @@ jobs:
           name: dist-files
           path: dist
       - name: output contents of dist
-        run: ls -l
+        run: ls
       - name: Deploy
         run: echo "Deploying..."
